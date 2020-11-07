@@ -24,7 +24,6 @@ try {
     die("Could not connect to the database $dbname :" . $e->getMessage());
 }
 ?>
-<!DOCTYPE html>
 <html>
     <head>
         <title>Example connecting to a mysql database</title>

@@ -2,9 +2,9 @@
 # mysql
 A docker image that connects to a running instance of a mysql database.
 ## Preconditions
-A running mysql instance that you can connect to. If you don't have one you can start one with docker.
+A running mysql instance that you can connect and you have a username and password for it. If you don't have one you can start one with docker.
 
-## Run a local Docker container
+## Run a local Docker container for mysql
 ```docker run --name=mysql1 -e MYSQL_ROOT_HOST=% -p 3306:3306 -d mysql/mysql-server```
 
 This will start a docker container running mysql. To finish the setup you need to reset the onetime password generated for the root user. 
