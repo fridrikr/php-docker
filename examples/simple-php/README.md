@@ -1,5 +1,5 @@
 # simple-php-app
-A docker image that copies source code from the src/ directory and starts apache.
+A Docker image that copies source code from the src/ directory and starts apache.
 ## Preconditions
 The source code for the app that we want to expose with apache is in a src folder next to the Dockerfile.
 

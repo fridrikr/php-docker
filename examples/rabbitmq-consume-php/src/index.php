@@ -1,10 +1,12 @@
 #!/usr/bin/env php
 <?php
 // This contains first argument
+fwrite(STDOUT, 'starting work');
 $message = $argv[1];
 // Decode to get original value
 $original = base64_decode($message);
-echo $original;
+fwrite(STDOUT, $original);
+
 // Start processing
 // if (do_heavy_lifting($original)) {
 //     // All well, then return 0
